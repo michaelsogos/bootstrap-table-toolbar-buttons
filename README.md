@@ -9,7 +9,7 @@ Features
 
 Demo
 -----
-See it in action: [demo here](http://www.prograhammer.com/demos/bootstrap-table-contextmenu)
+See it in action: [demo here](https://jsfiddle.net/michaelsogos/w112m1o3/)
 
 Installation
 -----
