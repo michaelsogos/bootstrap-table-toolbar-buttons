@@ -1,0 +1,17 @@
+{
+    "name": "Toolbar Buttons",
+    "version": "1.0.0",
+    "description": "Add custom buttons to toolbar",
+    "url": "https://github.com/michaelsogos/bootstrap-table-toolbar-buttons",
+    "example": "https://jsfiddle.net/michaelsogos/w112m1o3/",
+    "plugins": [
+        {
+            "name": "bootstrap-table-toolbar-buttons",
+            "url": "https://github.com/michaelsogos/bootstrap-table-toolbar-buttons"
+        }
+    ],
+    "author": {
+        "name": "Michael Sogos",
+        "image": "https://avatars2.githubusercontent.com/u/971120"
+    }
+}
