@@ -1,0 +1,27 @@
+{
+    "name": "bootstrap-table-toolbar-buttons",
+    "homepage": "https://github.com/michaelsogos/bootstrap-table-toolbar-buttons",
+    "authors": [
+        "Michael Sogos <michael.sogos@gurustudioweb.it>"
+    ],
+    "version": "1.0.0",
+    "description": "This is an extension for bootstrap-table to add custom buttons to toolbar.",
+    "main": [
+        "src/bootstrap-table-toolbar-buttons.js"
+    ],
+    "keywords": [
+        "bootstrap",
+        "table",
+        "toolbar",
+        "button",
+        "buttons"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "node_modules",
+        "extension.json",
+        "README.md",
+        ".gitignore",
+        "package.json"
+    ]
+}

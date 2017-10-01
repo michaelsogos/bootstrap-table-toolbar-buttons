@@ -25,7 +25,7 @@ Include this extension after [Bootstrap-table](https://github.com/wenzhixin/boot
 In case you use an AMD loader (like require.js) specify manually dependecies to jQuery, bootstrap and bootstrap-table (like shims in require.js).
 
 ```html
-<script src="bootstrap-table-contextmenu.js"></script>
+<script src="bootstrap-table-toolbar-buttons.js"></script>
 ```
 
 Simple example:
