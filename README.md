@@ -24,7 +24,7 @@ Usage
 Include this extension after [Bootstrap-table](https://github.com/wenzhixin/bootstrap-table).
 In case you use an AMD loader (like require.js) specify manually dependecies to jQuery, bootstrap and bootstrap-table (like shims in require.js).
 
-```
+```html
 <script src="bootstrap-table-contextmenu.js"></script>
 ```
 
@@ -78,8 +78,8 @@ Simple example:
     </div>    
 
     <script>
-	  $(function() {
-		  $('#grid').bootstrapTable({
+    $(function() {
+        $('#grid').bootstrapTable({
             showRefresh: true,
             customToolbarButtons: [
                 {
@@ -89,12 +89,12 @@ Simple example:
                     callback: onShowFiltersDialog
                 }
             ]
-		  });
-	  });
+        });
+    });
 
-      var onShowFiltersDialog = function(){
-          $('#filters-dialog').modal('show');
-      }
+    var onShowFiltersDialog = function(){
+        $('#filters-dialog').modal('show');
+    }
     </script>
 </body>
 ```
@@ -104,7 +104,7 @@ Options
 
 |Name                    |Type                 |Default   |Description|
 |------------------------|---------------------|----------|-----------|
-|customToolbarButtons    |Array                |[]        |An array of object that describe a button.|
+|customToolbarButtons    |Array                |[]        |An array of button object (see below).|
 
 Button object
 ----
